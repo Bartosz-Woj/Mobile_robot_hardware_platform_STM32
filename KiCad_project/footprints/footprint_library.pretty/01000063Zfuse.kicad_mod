@@ -1,0 +1,364 @@
+(footprint "01000063Zfuse"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "01000063Z-2")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "REF**"
+		(at 13.931877 -4.756951 90)
+		(layer "F.SilkS")
+		(uuid "730eb04f-8efb-422f-8219-cc2b19d7c13a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "fuse"
+		(at 5.85 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ad7b269c-0cd8-4315-beb2-4477161defc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuseclip_100_datasheet.pdf.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2de49d5e-031f-4522-9146-5969509b5a22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse Clips FUSE HOLDER FOR MINIFUSE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cb38856-ab43-48b4-ad2a-77ceb5333c9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "11.2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6abc1af-4e23-4d02-899e-4c027e489fc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b013280-aca0-483f-af83-f9f2a22fe6b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "01000063Z"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a3605e9-2a9e-4e2a-bb55-35d04577b366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "576-01000063Z"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "def2703c-71a0-4f9a-a5b2-0a60a05cf99f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000063Z?qs=DPoM0jnrROVX1yuIJJJkYg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed5b0270-7ee8-4438-ab10-404fe0b10df2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f04d8a1-0b0b-46b5-8ca1-6d4da3ff4bb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27684212-22ef-4f1b-b576-6d55a89bd7d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.1 0)
+		(end -2.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23ea71fc-3ddb-49ca-a59f-ba9e14fcb8e3")
+	)
+	(fp_line
+		(start -2 0)
+		(end -2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41549652-a82d-44ce-9277-601804badd40")
+	)
+	(fp_line
+		(start -1.55 -2.4)
+		(end 13.25 -2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ceb6734-bbe5-439d-925d-af562866648e")
+	)
+	(fp_line
+		(start -1.55 2.4)
+		(end -1.55 -2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3452aaaf-a10d-474d-b082-d1ed6363a75a")
+	)
+	(fp_line
+		(start 13.25 -2.4)
+		(end 13.25 2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0534fe5-5d59-48d4-b087-d93194ff7098")
+	)
+	(fp_line
+		(start 13.25 2.4)
+		(end -1.55 2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "982b0287-849b-4598-90ac-bb145d5a661f")
+	)
+	(fp_arc
+		(start -2.1 0)
+		(mid -2.05 -0.05)
+		(end -2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1429bce-7b1b-44aa-8f5f-3c7dbf28cba6")
+	)
+	(fp_arc
+		(start -2 0)
+		(mid -2.05 0.05)
+		(end -2.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70370213-f1f6-4885-a77a-f87d37b6c5b4")
+	)
+	(fp_line
+		(start -2.55 -3.4)
+		(end 14.25 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf755826-cd0b-439c-a89d-398d9ca2a17b")
+	)
+	(fp_line
+		(start -2.55 3.4)
+		(end -2.55 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5e8b063-3455-4848-a238-4438656f7fe6")
+	)
+	(fp_line
+		(start 14.25 -3.4)
+		(end 14.25 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e5a53c8-e48a-45b0-adcd-f9ba87f440d2")
+	)
+	(fp_line
+		(start 14.25 3.4)
+		(end -2.55 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8ee1de0-d452-4994-b211-a466e102445e")
+	)
+	(fp_line
+		(start -1.55 -2.4)
+		(end 13.25 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5801d53-3a90-47e2-bafb-540edaa8bb6a")
+	)
+	(fp_line
+		(start -1.55 2.4)
+		(end -1.55 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "978a0ad0-b64e-43b6-98f7-e01c71a3f51b")
+	)
+	(fp_line
+		(start 13.25 -2.4)
+		(end 13.25 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49421c51-74b2-4efc-b02e-628cb734fd16")
+	)
+	(fp_line
+		(start 13.25 2.4)
+		(end -1.55 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b6555f8-1530-4500-a38a-6e4b38d659c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.85 0 0)
+		(layer "F.Fab")
+		(uuid "e89a7efc-6ec5-4255-b708-37ee01a81397")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole trapezoid
+		(at 0 0)
+		(size 1.5 2.5)
+		(drill oval 1 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "416fad49-eb96-4329-a921-b128c12f1550")
+	)
+	(pad "2" thru_hole trapezoid
+		(at 3.7 0)
+		(size 1.5 2.5)
+		(drill oval 1 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "423fe51c-cb0d-497f-bfcc-53cfa4a0fb4c")
+	)
+	(pad "3" thru_hole rect
+		(at 8 0)
+		(size 1.5 2.5)
+		(drill oval 1 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be3d61a2-4765-4733-8528-3452f5597f37")
+	)
+	(pad "4" thru_hole rect
+		(at 11.7 0)
+		(size 1.5 2.5)
+		(drill oval 1 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "186989ef-57db-44de-b934-bb7ee7c26efa")
+	)
+	(embedded_fonts no)
+	(model "01000063Z.stp"
+		(offset
+			(xyz 5.849999817 0 0.009999999626)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

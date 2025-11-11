@@ -1,0 +1,257 @@
+(footprint "Vishay_MOLD-3Pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IR Receiver Vishay TSOP-xxxx, MOLD package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf")
+	(tags "IR Receiver Vishay TSOP-xxxx MOLD")
+	(property "Reference" "REF**"
+		(at -1.016 2.54 90)
+		(layer "F.SilkS")
+		(uuid "b9285218-a0ab-4bdc-b3a0-c4731612a21e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSOP321xx"
+		(at 2.5 5 180)
+		(layer "F.Fab")
+		(uuid "df05ee5f-7bbb-4d4d-9f05-1690e2c462ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.vishay.com/docs/82490/tsop321.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "912dcbc1-4416-46cd-969a-4b11e0a461c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IR Receiver Modules for Remote Control Systems"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a9d59e4-f0a3-4076-a5e5-d4ca3546a0a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.04 2.3)
+		(end -0.18 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ab1164a-64ff-462f-a5df-6e054837159c")
+	)
+	(fp_line
+		(start 5.62 -1.36)
+		(end 2.54 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88acc5e0-6931-489d-aeef-5ad0c8658463")
+	)
+	(fp_line
+		(start 5.7 2.3)
+		(end 5.24 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82b747dc-bc73-49b0-8be0-7b86728e3b43")
+	)
+	(fp_line
+		(start 5.7 2.3)
+		(end 5.7 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9da30028-93cb-418f-bdd7-085920aa6cd1")
+	)
+	(fp_arc
+		(start 5.24 2.3)
+		(mid 2.64 4.023119)
+		(end 0.04 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1833bdf6-4896-4325-a57a-3859ea090000")
+	)
+	(fp_line
+		(start -1.15 -1.5)
+		(end -1.15 4.13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03627d69-14d8-44b9-b228-4c1b5416737e")
+	)
+	(fp_line
+		(start -1.15 -1.5)
+		(end 6.23 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce6a7f36-4879-448b-8d36-896aac63a78c")
+	)
+	(fp_line
+		(start 6.23 4.13)
+		(end -1.15 4.13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de4032a1-60a7-4c5e-a603-ae2dd702b70e")
+	)
+	(fp_line
+		(start 6.23 4.13)
+		(end 6.23 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a12c2505-9f9f-4b7f-a0d6-7566f9510d5d")
+	)
+	(fp_line
+		(start -0.2 2.2)
+		(end -0.2 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2694c77d-a936-4405-ab15-0725d8873139")
+	)
+	(fp_line
+		(start 0.55 -1.25)
+		(end -0.2 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19c05979-85c2-437b-bb91-245cd88b6aff")
+	)
+	(fp_line
+		(start 0.55 -1.25)
+		(end 5.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b68b4c0f-1966-4add-9c89-59095e6270df")
+	)
+	(fp_line
+		(start 5.6 -1.25)
+		(end 5.6 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c7a88f3-350e-4441-9295-619b4f364c80")
+	)
+	(fp_line
+		(start 5.6 2.2)
+		(end -0.2 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f316b4e-5c07-432b-b2b0-4e30da3fabce")
+	)
+	(fp_arc
+		(start 5.14 2.25)
+		(mid 2.651941 3.881274)
+		(end 0.149714 2.271818)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c7946cc-2c9a-4c06-9f28-51bb4a0b2e64")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.675 1.316 180)
+		(layer "F.Fab")
+		(uuid "2d8cecd4-ebbf-484d-bd83-186e27fa3b79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.138)
+		(uuid "67b97396-0570-494c-babd-2eda9670baa7")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7a14549-3e7f-4a42-a6c7-5b68fbdf16ae")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92905e64-4e30-4b43-b42c-7c5d48a73847")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_MOLD-3Pin.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

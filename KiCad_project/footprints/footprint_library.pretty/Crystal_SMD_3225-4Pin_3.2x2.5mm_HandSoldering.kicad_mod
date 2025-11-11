@@ -1,0 +1,150 @@
+(footprint "Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, hand-soldering, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
+	(property "Reference" "REF**"
+		(at 3.779 2.406 90)
+		(layer "F.SilkS")
+		(uuid "1ce948e4-372a-4065-a497-79db7d22985c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_GND24"
+		(at 0 3.05 0)
+		(layer "F.Fab")
+		(uuid "1f5306c1-dcc1-4afd-bb9c-8dc93675f5b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84adb91f-f273-40e0-9a66-28fd2160efb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa00a10f-d9f5-4c41-b6e6-dd78e64e6fe1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.76 -2.31)
+		(end -2.76 2.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ba798aa-a557-454b-ab86-7dd274e94148")
+	)
+	(fp_line
+		(start -2.76 2.31)
+		(end 2.76 2.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82052525-e366-43dc-a47e-a02f12d61640")
+	)
+	(fp_rect
+		(start -2.75 -2.3)
+		(end 2.75 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f798e4ba-3d7e-4571-9ad3-3b23323b88d3")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -1.25) (xy -1.6 0.625) (xy -0.975 1.25) (xy 1.6 1.25) (xy 1.6 -1.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "119f3946-14aa-4e22-b920-fb83f3b560eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9e0a6d91-f448-4806-8815-386b7007a178")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.45 1.15)
+		(size 2.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.138889)
+		(uuid "a1e0f8eb-fb0d-452c-8b9e-ef43f58730e4")
+	)
+	(pad "2" smd roundrect
+		(at 1.45 1.15)
+		(size 2.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.138889)
+		(uuid "0fe5f718-d39f-4b91-94bd-e54337e671b9")
+	)
+	(pad "3" smd roundrect
+		(at 1.45 -1.15)
+		(size 2.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.138889)
+		(uuid "8de28838-d8a3-4350-9e26-bea61f154b31")
+	)
+	(pad "4" smd roundrect
+		(at -1.45 -1.15)
+		(size 2.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.138889)
+		(uuid "337547a0-6cc4-4ed0-8170-d12d9e780ef9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
