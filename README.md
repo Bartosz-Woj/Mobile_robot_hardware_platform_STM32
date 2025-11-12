@@ -18,21 +18,6 @@
 - 1x 16pin IDC connector (for IR distance sensor)
 - connector for IR sumo [robot start module](https://p1r.se/startmodule/)
 
-## Photos
-
-- **PCB top side:**  
-  ![PCB top side](./photos/PCB_top.png)
-- **PCB bottom side:**  
-  ![PCB bottom side](./photos/PCB_bottom.png)
-
-- **Debuging mode:**  
-  ![Debuging mode in  STM32CubeIDE](./photos/stm32_ide_PWM_adjusting.png)
-
-- **Example connection with motors**  
-  ![Connection with motors](./photos/with_motors.jpg)
-
----
-
 ## Program uploading and debugging
 
 The ST-link can be connected to the J2 connector by IDC wire to [ST-Link Nucleo board programming shield] (https://github.com/Bartosz-Woj/ST_LINK-Nucleo-programming-shield) or to the connector J6 by goldpin wires.
@@ -48,6 +33,30 @@ In the folder /software there are example projects made in STM32CubeIDE which ca
 - electronic desing: finished
 - example usage design: on going
 
+## Additional modules
+
+- [ST-Link Nucleo board programming shield](https://github.com/Bartosz-Woj/ST_LINK-Nucleo-programming-shield)
+- [Modulated infrared distance sensor module which peak detection](https://github.com/Bartosz-Woj/Modulated_infrared_distance_sensor)
+
+## Usage in mobile robot projects
+
+on going
+
+## Photos
+
+- **PCB top side:**  
+  ![PCB top side](./photos/PCB_top.png)
+- **PCB bottom side:**  
+  ![PCB bottom side](./photos/PCB_bottom.png)
+
+- **Debuging mode:**  
+  ![Debuging mode in  STM32CubeIDE](./photos/stm32_ide_PWM_adjusting.png)
+
+- **Example connection with motors**  
+  ![Connection with motors](./photos/with_motors.jpg)
+
+---
+
 ## Author
 
 - **Project by:** Bartosz-Woj (Bartosz Wojciechowski)
@@ -59,5 +68,3 @@ In the folder /software there are example projects made in STM32CubeIDE which ca
 
 Licensed under the **CERN Open Hardware License v2 – Permissive (CERN-OHL-P)**  
 You are free to **use, modify, and redistribute** this project, provided that you **credit the original author**.
-
----

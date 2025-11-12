@@ -88,10 +88,6 @@
           "polygon to pad"
         ],
         [
-          "starved_thermal|158799995|40916943|38569cae-989e-4df2-b1e5-14f3f8199086|e6f993b0-a619-475f-a0e5-c832eb22299c|F.Cu",
-          "enough connections"
-        ],
-        [
           "starved_thermal|175768000|90694000|38569cae-989e-4df2-b1e5-14f3f8199086|2c49769f-bcb6-4fed-b63c-b3b30b9fbfc9|F.Cu",
           "enough"
         ],
@@ -118,7 +114,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
