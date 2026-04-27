@@ -6076,7 +6076,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbol_library:TSOP321xx"
+		(symbol "symbol_library:VS1838B"
 			(pin_names
 				(offset 1.016)
 			)
@@ -6092,7 +6092,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TSOP321xx"
+			(property "Value" "VS1838B"
 				(at -10.16 -7.62 0)
 				(effects
 					(font
@@ -6101,7 +6101,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "OptoDevice:Vishay_MOLD-3Pin"
+			(property "Footprint" "VS1838B"
 				(at -1.27 -9.525 0)
 				(effects
 					(font
@@ -6110,8 +6110,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/82490/tsop321.pdf"
-				(at 16.51 7.62 0)
+			(property "Datasheet" ""
+				(at 1.27 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6146,7 +6146,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TSOP321xx_0_0"
+			(symbol "VS1838B_0_0"
 				(arc
 					(start -10.287 -1.778)
 					(mid -11.0899 -0.1905)
@@ -6192,7 +6192,18 @@
 					)
 				)
 			)
-			(symbol "TSOP321xx_0_1"
+			(symbol "VS1838B_0_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -8.763 0.381) (xy -9.652 1.27)
@@ -6431,19 +6442,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 7.62 6.35)
-					(end -10.16 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
-			(symbol "TSOP321xx_1_1"
+			(symbol "VS1838B_1_1"
 				(pin power_in line
 					(at 10.16 5.08 180)
 					(length 2.54)
@@ -6454,7 +6454,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6490,7 +6490,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14478,77 +14478,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbol_library:TSOP321xx")
-		(at 114.3 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "633994e0-f0d4-44b3-b393-a30a28e82177")
-		(property "Reference" "U12"
-			(at 112.565 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSOP321xx"
-			(at 112.565 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OptoDevice:Vishay_MOLD-3Pin"
-			(at 113.03 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/82490/tsop321.pdf"
-			(at 130.81 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IR Receiver Modules for Remote Control Systems"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55ee31b1-a940-4afb-be39-9e157dbe716c")
-		)
-		(pin "3"
-			(uuid "c2ee96a3-63ce-444c-a79b-74c8b5c926cc")
-		)
-		(pin "2"
-			(uuid "cc24e161-b7ef-4011-8a43-9ceef907c04b")
-		)
-		(instances
-			(project ""
-				(path "/e8f9f0a0-cca9-426a-b8ab-73515fe7421d"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbol_library:+3.3V")
 		(at 261.62 87.63 0)
 		(unit 1)
@@ -15873,6 +15802,77 @@
 			(project "sumoV5"
 				(path "/e8f9f0a0-cca9-426a-b8ab-73515fe7421d"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbol_library:VS1838B")
+		(at 114.3 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "863fe8bf-67d5-47f3-9451-b2b442c8fec9")
+		(property "Reference" "U3"
+			(at 112.565 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VS1838B"
+			(at 112.565 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint_library:Vishay_MOLD-3Pin"
+			(at 113.03 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IR Receiver Modules for Remote Control Systems"
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "287450ec-0bac-4e0d-9b9f-a22ea67cbf4a")
+		)
+		(pin "2"
+			(uuid "77cebd2f-f40e-48c0-9a6e-9f448e12e56b")
+		)
+		(pin "3"
+			(uuid "8e2e46b8-b196-4854-8c22-49f4c64409c2")
+		)
+		(instances
+			(project ""
+				(path "/e8f9f0a0-cca9-426a-b8ab-73515fe7421d"
+					(reference "U3")
 					(unit 1)
 				)
 			)

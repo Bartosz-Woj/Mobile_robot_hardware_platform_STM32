@@ -90,10 +90,6 @@
         [
           "starved_thermal|175768000|90694000|38569cae-989e-4df2-b1e5-14f3f8199086|2c49769f-bcb6-4fed-b63c-b3b30b9fbfc9|F.Cu",
           "enough"
-        ],
-        [
-          "starved_thermal|183355509|44417509|38569cae-989e-4df2-b1e5-14f3f8199086|82a3a6a5-5c7c-4ace-bcd7-d05bf19adc75|F.Cu",
-          "no crucial"
         ]
       ],
       "meta": {
