@@ -72,20 +72,56 @@
           "warning"
         ],
         [
-          "starved_thermal|117464448|63193638|10c10630-bf7d-4f31-bd6c-827fc5d7d09e|4efc7b82-00ce-4e7b-8a46-3a208b5c3fed|B.Cu",
-          "Pad to polyygon"
+          "silk_overlap|171714342|87064000|07c25185-d332-4569-9452-6aca28a1c3e3|4e241d40-a866-4a68-8afd-8af06bf4edf1",
+          "acceptable intersection"
+        ],
+        [
+          "silk_overlap|173190819|87064000|07c25185-d332-4569-9452-6aca28a1c3e3|2ec0041a-a5b7-4598-babc-3939a4038cd8",
+          "acceptable intersection"
+        ],
+        [
+          "silk_overlap|175460914|87257095|1a3afa4b-0d28-4407-9ae0-5bf4a0cb2a82|29a45c5a-8c31-4a8c-a6d8-027ffd460b06",
+          "acceptable intersection"
+        ],
+        [
+          "silk_overlap|175841866|87064000|07c25185-d332-4569-9452-6aca28a1c3e3|1a3afa4b-0d28-4407-9ae0-5bf4a0cb2a82",
+          "acceptable intersection"
+        ],
+        [
+          "silk_overlap|175841866|87257095|1a3afa4b-0d28-4407-9ae0-5bf4a0cb2a82|c7656271-2536-4a4d-929b-278dff7749fb",
+          "acceptable "
+        ],
+        [
+          "silk_overlap|178452000|87064000|7b9e3104-eb76-4284-87dd-e3e5d975ac5b|feb521e8-af0f-448d-9a71-98e6b8ad8033",
+          "acceptable intersection"
+        ],
+        [
+          "silk_overlap|178452000|87064000|c91bf9b3-9e50-40a2-9494-af080c098871|feb521e8-af0f-448d-9a71-98e6b8ad8033",
+          "acceptable intersection"
+        ],
+        [
+          "silk_overlap|180461485|87209476|18d8837b-85c7-44cd-b1ea-9c545e169fbf|c91bf9b3-9e50-40a2-9494-af080c098871",
+          "acceptable intersection"
+        ],
+        [
+          "starved_thermal|106426000|62037574|38569cae-989e-4df2-b1e5-14f3f8199086|39f954e7-1a73-40a9-a686-848050d5f8a5|F.Cu",
+          "acceptable"
         ],
         [
           "starved_thermal|128799323|85963662|15de89a2-9c4b-4158-b074-fb0e7853a4f1|78743c19-b384-49b6-b158-ec2b6ff742ef|B.Cu",
           "Pad to polygon"
         ],
         [
+          "starved_thermal|131318000|43330500|38569cae-989e-4df2-b1e5-14f3f8199086|f0bac0fc-9024-455e-9a1f-d4160654eae8|F.Cu",
+          "not required"
+        ],
+        [
           "starved_thermal|133554389|82046352|38569cae-989e-4df2-b1e5-14f3f8199086|ddcb4454-d840-4bf5-9291-f59676182c79|B.Cu",
           "more connections not possible"
         ],
         [
-          "starved_thermal|147828000|60176500|38569cae-989e-4df2-b1e5-14f3f8199086|f199a2f2-8efb-477b-9366-c59b3678d06a|B.Cu",
-          "polygon to pad"
+          "starved_thermal|135756319|43440679|38569cae-989e-4df2-b1e5-14f3f8199086|f05a9827-6883-458c-9148-7af7bbceacdf|B.Cu",
+          "already on the other side"
         ],
         [
           "starved_thermal|175768000|90694000|38569cae-989e-4df2-b1e5-14f3f8199086|2c49769f-bcb6-4fed-b63c-b3b30b9fbfc9|F.Cu",
@@ -557,7 +593,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "sumoV5.step",
+      "step": "../3D cad model/mobile_robot_PCB.step",
       "svg": "",
       "vrml": ""
     },

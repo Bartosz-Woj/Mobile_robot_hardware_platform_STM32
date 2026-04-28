@@ -3622,6 +3622,12 @@
 		(uuid "a7c9a6c8-d578-4e50-8e7e-e5cc7f6bf156")
 	)
 	(junction
+		(at 199.39 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa3737d3-0044-4d75-bf84-3224e9b97d44")
+	)
+	(junction
 		(at 31.75 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3632,6 +3638,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b00158c7-6aa3-49db-9cd1-77ecf0505e7d")
+	)
+	(junction
+		(at 199.39 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3118493-9c18-42f8-b189-5c2b447e6d80")
 	)
 	(junction
 		(at 146.05 170.18)
@@ -5027,6 +5039,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 133.35) (xy 212.09 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c0f86b-9ba1-47e1-be7c-79004c168e82")
+	)
+	(wire
+		(pts
 			(xy 105.41 81.28) (xy 100.33 81.28)
 		)
 		(stroke
@@ -5234,6 +5256,16 @@
 			(type default)
 		)
 		(uuid "c178b1e1-7459-4bfc-a12a-05c2116bee01")
+	)
+	(wire
+		(pts
+			(xy 199.39 133.35) (xy 212.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26c7cc3-91e2-44c1-9054-479a3de3e7ef")
 	)
 	(wire
 		(pts
@@ -5527,6 +5559,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 144.78) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c519f2-33fc-48f7-95d6-e80392fcb062")
+	)
+	(wire
+		(pts
 			(xy 158.75 143.51) (xy 158.75 144.78)
 		)
 		(stroke
@@ -5714,6 +5756,16 @@
 			(type default)
 		)
 		(uuid "f9cf5361-6cb9-4512-ab84-fc5d743f4893")
+	)
+	(wire
+		(pts
+			(xy 212.09 143.51) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb82182-e7b2-42a6-a78e-e97d5ab800e8")
 	)
 	(wire
 		(pts
@@ -6292,6 +6344,75 @@
 			(project "sumoV5"
 				(path "/e8f9f0a0-cca9-426a-b8ab-73515fe7421d/7641e29b-8afb-4073-a9f3-cabc48dcae12"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbol_library:C")
+		(at 212.09 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bbd52c3-1a4c-4c60-9f49-19448f5f15e6")
+		(property "Reference" "C10"
+			(at 215.9 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 216.154 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 213.0552 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V min"
+			(at 212.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "650b09ce-4477-4e84-8e6b-9ea97547e631")
+		)
+		(pin "2"
+			(uuid "86616c84-02f3-4b17-8705-87a009b17b8a")
+		)
+		(instances
+			(project "mobile_robot"
+				(path "/e8f9f0a0-cca9-426a-b8ab-73515fe7421d/7641e29b-8afb-4073-a9f3-cabc48dcae12"
+					(reference "C10")
 					(unit 1)
 				)
 			)
