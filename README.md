@@ -6,6 +6,7 @@
 
 ## Main functionality
 
+- high range of power suply voltage (recommended: 9-12V PSU or 2S-3S Li-Po)
 - STM32G431
 - IR receiver
 - power lines: 3V3, 5V, 6V5 with step-down converters.
@@ -15,7 +16,7 @@
 - 2x encoder connector
 - 2x H-bridge (3.6A each)
 - 2x 10pin IDC connector
-- 1x 16pin IDC connector (for IR distance sensor)
+- 1x 16pin IDC connector [for IR distance sensor](https://github.com/Bartosz-Woj/Modulated_infrared_distance_sensor)
 - connector for IR sumo [robot start module](https://p1r.se/startmodule/)
 
 ## Program uploading and debugging
@@ -40,10 +41,12 @@ In the folder /software there are example projects made in STM32CubeIDE which ca
 
 ## Usage in mobile robot projects
 
-on going
+- [Low cost mini sumo robot](https://github.com/Bartosz-Woj/Mini-sumo-robot)
 
 ## Photos
 
+- **Schematic:**  
+  ![Schematic](./photos/Schematic.png)
 - **PCB top side:**  
   ![PCB top side](./photos/PCB_top.png)
 - **PCB bottom side:**  
@@ -68,3 +71,8 @@ on going
 
 Licensed under the **CERN Open Hardware License v2 – Permissive (CERN-OHL-P)**  
 You are free to **use, modify, and redistribute** this project, provided that you **credit the original author**.
+
+## Changelog
+
+- V1 - initial release
+- V2 - minor improvments: modified U3 footprint, rotated J7, updated routing (microcontroller, power section)
